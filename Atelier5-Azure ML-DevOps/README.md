@@ -1,4 +1,8 @@
 
+Created By : Kiddi Mohamed & Oubrahim Hassan 
+
+Supervisor : Monsieur Fahd kalloubi
+
 # Port of Turku Weather Forecasting with Azure DevOps, MLflow, and Azure Machine Learning SDK
 
 This repository tackles a real-world challenge using Azure DevOps, MLflow, and the Azure Machine Learning SDK. We aim to forecast weather conditions at the Port of Turku in Finland, leveraging machine learning to optimize resource allocation and streamline operations.
