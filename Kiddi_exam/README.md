@@ -2,6 +2,8 @@
 ## Overview
 This project involves creating, training, and deploying machine learning models using MLflow, FastAPI, Flask, Docker, and Azure services. The process includes data preprocessing, model training, tracking model performance, saving the best model in ONNX format, creating REST APIs, packaging models and applications as Docker containers, and deploying them using various platforms like Heroku, Azure Container Instances, and Azure ML SDK.
 
+please run the notebook to get the preprocessing.pkl and model.onnx
+
 Steps:
 1. Preprocessing
 Begin by preprocessing your dataset to prepare it for model training.
