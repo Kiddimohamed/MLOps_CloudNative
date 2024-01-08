@@ -1,5 +1,5 @@
-#Kiddi Test
-##Overview
+# Kiddi Test
+## Overview
 This project involves creating, training, and deploying machine learning models using MLflow, FastAPI, Flask, Docker, and Azure services. The process includes data preprocessing, model training, tracking model performance, saving the best model in ONNX format, creating REST APIs, packaging models and applications as Docker containers, and deploying them using various platforms like Heroku, Azure Container Instances, and Azure ML SDK.
 
 Steps:
