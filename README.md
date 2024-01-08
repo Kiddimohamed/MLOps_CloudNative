@@ -14,20 +14,24 @@ This project is part of an MLOps course, focusing on practical implementation an
 2. **FastAPI (lab 2):**
    Understanding and implementation of FastAPI for building efficient APIs.
 
-3. **MLflow (lab 4):**
+4. **MLflow (lab 4):**
    Utilizing MLflow for managing the machine learning lifecycle.
 
-4. **Azure ML DevOps (lab 5):**
+5. **Azure ML DevOps (lab 5):**
    Implementing machine learning pipelines and DevOps practices on Azure.
 
-5. **Microservices API (lab 6):**
+6. **Microservices API (lab 6):**
    Designing and deploying microservices-based architecture for APIs.
 
-6. **Amazon SageMaker (lab 8):**
+8. **Amazon SageMaker (lab 8):**
    Leveraging Amazon SageMaker for scalable machine learning model training and deployment.
 
-7. **Model Testing with Locust (lab 9):**
+9. **Model Testing with Locust (lab 9):**
    Exploring and conducting model testing using Locust for performance evaluation.
+10. **Exam
+
+    
+
 
 ## Objective
 The primary goal of this project is to provide hands-on experience and exposure to a comprehensive set of tools and methodologies relevant to MLOps. Through practical workshops, participants will gain proficiency in various stages of the machine learning pipeline, from data preprocessing and model development to deployment, monitoring, and testing.
