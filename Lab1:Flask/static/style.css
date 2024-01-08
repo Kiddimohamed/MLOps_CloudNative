@@ -1,0 +1,978 @@
+html {
+  font-size: 50%;
+}
+
+body {
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-family: 'Raleway', serif;
+    color: rgb(60, 60, 60);
+    font-weight: 300;
+    line-height: 1.3;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: -0.15rem;
+    line-height: 1.2;
+}
+
+strong {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 37px;
+    font-size: 3.7rem;
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+
+h2 {
+    font-size: 28px;
+    font-size: 2.8rem;
+    margin-bottom: 11px;
+}
+
+h3 {
+    font-size: 20px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: rgb(100, 100, 100);
+}
+
+p:not(:last-of-type) {
+    margin-bottom: 1rem;
+}
+
+/*
+---------------------------------- HEADER ----------------------------------------
+*/
+
+
+.header p {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 21px;
+    font-size: 2.1rem;
+    letter-spacing: -0.02rem;
+    margin-bottom: 0;
+}
+
+/*
+---------------------------------- INPUT FORM ----------------------------------------
+*/
+
+form p {
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.7rem;
+}
+
+.form-row > label {
+    font-weight: 400;
+}
+
+input, select, .Select, textarea {
+    font-family: inherit;
+    font-weight: inherit;
+    color: inherit;
+    font-size: 15px;
+    font-size: 1.5rem;
+}
+
+.form-row input[type='number'] {
+    text-align: center;
+}
+
+.reset-button a:link,
+.reset-button a:visited {
+    color: rgb(120, 120, 120);
+}
+
+.reset-button a:hover {
+    color: rgb(80, 80, 80);
+}
+
+.reset-button p {
+    color: rgb(120, 120, 120);
+    text-decoration: underline;
+}
+
+.reset-button p:hover {
+    color: rgb(80, 80, 80);
+}
+
+/*
+.Select,
+#platformType_dropdown .Select-value-label,
+#provider_dropdown .Select-value-label,
+#coreType_dropdown .Select-value-label,
+#coreModel_dropdown .Select-value-label,
+#location_continent_dropdown .Select-value-label,
+#location_country_dropdown .Select-value-label,
+#location_region_dropdown .Select-value-label {
+    font-size: 15px;
+    font-size: 1.5rem;
+    color: #ff0000;
+}
+*/
+
+/*
+---------------------------------- MINI-BOX ----------------------------------------
+*/
+
+.caption-icons p {
+    margin-bottom: 0;
+}
+
+.caption-icons p:first-of-type {
+    font-weight: 600;
+    font-size: 25px;
+    font-size: 2.5rem;
+    margin-bottom: 6px;
+}
+
+.caption-icons p:last-of-type {
+    font-weight: 400;
+    /*font-style: italic;
+    font-size: 20px;
+    font-size: 2rem;*/
+}
+
+.permalink {
+    font-size: 22px;
+    font-size: 2.2rem;
+}
+
+/*
+---------------------------------- DESCRIPTIONS ----------------------------------------
+*/
+
+.report p {
+    margin-bottom: 1rem;
+}
+
+blockquote {
+    font-style: italic;
+    font-weight:400;
+}
+
+/*
+---------------------------------- ABOUT US ----------------------------------------
+*/
+
+.authors p:first-of-type {
+    margin-bottom: 0.5rem;
+}
+
+.affiliations  p {
+    text-align: left;
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+
+.affiliations p:not(:last-of-type) {
+    margin-bottom: 0.5rem;
+}
+
+.affiliations  p:first-of-type {
+    margin-top: 1rem;
+}
+
+.affiliations p:last-of-type {
+    margin-bottom: 1rem;
+}
+
+.show-stripes p:last-of-type {
+    margin-top: 3rem
+}
+
+/*
+---------------------------------- Footer ----------------------------------------
+*/
+
+.citation-report p {
+    font-size: 15px;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.footnote-authorship p {
+    font-size: 15px;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.preprint {
+    font-style: italic;
+    background-color: rgba(249, 249, 249,0.9);
+}
+body {
+    background-color: #f2f2f2;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /*700px;*/
+    /*margin: 5%;*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fullPage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding: 15px;
+}
+
+.super-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align:center;
+
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin: 6px 0;
+    padding: 25px;
+    box-shadow: 2px 2px 2px lightgrey;
+}
+
+/*
+---------------------------------- HEADER ----------------------------------------
+*/
+
+.header {
+    background-color: rgba(249, 249, 249,0.6);
+    padding-top: 38px;
+    padding-bottom: 35px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+/*
+---------------------------------- INPUT FORM ----------------------------------------
+*/
+
+.input-form {
+    display: block;
+    text-align:left;
+}
+
+.Hr_div {
+    width:100%;
+}
+
+hr {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    background-color:rgb(220, 220, 220);
+    border: 0 none;
+    margin-top:0;
+    margin-bottom:20px
+}
+
+.form-row {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-row:last-of-type {
+    margin-bottom: 0;
+}
+
+.group-of-rows {
+    margin-bottom: 20px;
+}
+/*.group-of-rows > .form-row {*/
+/*    margin-bottom: 0;*/
+/*}*/
+
+.form-row > label {
+    margin-bottom: 7px;
+}
+
+
+.form-row  input[type='number'],
+.form-row .Select-control {
+    background-color: #FFFFFF;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.form-row input[type='number'] {
+    padding: 7px;
+}
+
+.bottom-dropdown {
+    margin-top: 5px;
+}
+
+.box-runtime {
+    display: flex;
+}
+
+
+.box-runtime input[type='number'] {
+    width:50%;
+}
+
+
+.box-runtime input:first-of-type {
+    margin-right:2px;
+}
+
+.box-runtime input:last-of-type {
+    margin-left:2px;
+}
+
+.radio-and-field {
+    flex-direction: row;
+}
+
+.radio-and-field > label {
+    width: 100%;
+}
+
+.radio-input {
+    width: 60%;
+    margin: 10px 0 13px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.radio-input label:last-of-type {
+    margin-right: 20px;
+}
+
+.form-row input[type='radio'] {
+    margin-right: 7px;
+}
+
+.radio-and-field input[type='number'] {
+    width: 40%;
+}
+
+.reset-button {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two-buttons {
+    display: flex;
+}
+
+/*
+---------------------------------- MINI-BOX ----------------------------------------
+*/
+
+.mini-boxes {
+    flex-direction: row;
+}
+
+.mini-box {
+    /*height: 200px;*/
+    flex-direction: row;
+}
+
+.style-icon {
+    height: 100px;
+    width: 100px;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.caption-icons {
+    width: 100%;
+}
+
+/*
+---------------------------------- TWO-GRAPHS BOX ----------------------------------------
+*/
+
+.two-graphs-box {
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*justify-content: space-around;*/
+    align-items: flex-start;
+}
+
+.graph-container {
+    width: 100%;
+    /*height: 100%;
+    display: block;*/
+    margin-top: 10px;
+}
+
+.one-of-two-graphs {
+    width: 100%;
+}
+
+.one-of-two-graphs:first-of-type {
+    margin-bottom: 50px;
+}
+
+/*
+---------------------------------- DESCRIPTIONS ----------------------------------------
+*/
+
+blockquote {
+    border-left: 4px lightgrey solid;
+    padding-left: 1rem;
+    text-align:left;
+}
+
+
+/*
+---------------------------------- FOOTER ----------------------------------------
+*/
+
+.footer {
+    background-color: rgba(249, 249, 249,0.6);
+}
+
+.footnote {
+    align-self: flex-start;
+}
+/* Large desktop Styles */
+@media only screen and (min-width: 1281px) {
+
+    body {
+        background-image: url("stripes_sym2.png");
+    }
+
+    .fullPage {
+        width: 1280px;
+        margin: 0 auto;
+    }
+
+    /*
+    ---------------------------------- INPUT FORM ----------------------------------------
+    */
+
+    .short-input  {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .short-input label {
+        width: 50%;
+        margin-bottom: 0;
+    }
+
+    .short-input .box-runtime {
+        display:block;
+        width: 50%;
+    }
+
+    .short-input .box-runtime input:first-of-type {
+        margin-right:0;
+        margin-bottom:2px;
+
+    }
+
+    .box-runtime input:last-of-type {
+        margin-left:0;
+    }
+
+    .short-input > input[type='number'],
+    .short-input .box-fields {
+        width: 50%;
+    }
+
+    #div_memory label{
+        width: 47%;
+        margin-right: 3%;
+    }
+
+    /*
+    ---------------------------------- MINI-BOX ----------------------------------------
+    */
+
+    /*.mini-box:not(:last-of-type)  {*/
+    /*    margin-right: 12px;*/
+    /*}*/
+
+    /*.mini-box {*/
+    /*    flex-direction: column;*/
+    /*    height: 260px;*/
+    /*    width:calc((25%) - (9px));*/
+    /*}*/
+
+
+    .mini-box:nth-of-type(n+3) {
+        height: 240px;
+    }
+
+    /*
+    ---------------------------------- FIRST OUTPUT ----------------------------------------
+    */
+
+    /*.two-graphs-box {*/
+    /*    flex-grow: 1;*/
+    /*}*/
+
+    .one-of-two-graphs {
+        width: calc((50%) - (10px));
+    }
+
+    .one-of-two-graphs:first-of-type {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+
+    .one-of-two-graphs:last-of-type {
+        padding-right: 0;
+        padding-left: 0;
+        /*margin-bottom: 0;*/
+    }
+
+    .pie-graph {
+        margin-top: 100px;
+    }
+
+    /*
+    ---------------------------------- FOOTER ----------------------------------------
+    */
+
+    .data-questions .container {
+        flex-grow:1;
+    }
+
+}
+/* Tablet Styles */
+
+@media only screen and (min-width: 550px) and (max-width: 1000px) {
+
+    html {
+      font-size: 57%;
+    }
+
+    /*
+    ---------------------------------- INPUT FORM ----------------------------------------
+    */
+
+    /*
+    .input-form {
+        margin-right: 12px;
+        width: calc((50%) - (6px));
+    }
+
+    .first-output {
+        width:calc((50%) - (6px));
+    }
+    */
+
+    .form-row  {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .form-row > label {
+        width: 50%;
+        margin-bottom: 0;
+        /*text-align: right;
+        padding-right: 10px;*/
+    }
+
+    .form-row .box-fields {
+        display:block;
+        width: 50%;
+    }
+
+    .form-row .box-runtime input:first-of-type {
+        margin-right:0;
+        margin-bottom:2px;
+
+    }
+
+    .form-row input:last-of-type {
+        margin-left:0;
+    }
+
+    .form-row > input[type='number'] {
+        width: 50%;
+    }
+
+    .radio-input {
+        width: 30%;
+        margin: 0;
+    }
+
+    .radio-and-field input[type='number'] {
+        width: 20%;
+    }
+
+    .reset-button {
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    /*
+    ---------------------------------- MINI-BOX ----------------------------------------
+    */
+
+    .mini-box {
+        margin-right: 12px;
+        height: 180px;
+    }
+
+    .mini-box:nth-of-type(2), .mini-box:nth-of-type(5) {
+        margin-right: 0;
+    }
+
+    .mini-box:nth-of-type(-n+2) {
+        width: calc((50%) - (6px));
+    }
+
+    .mini-box:nth-of-type(n+3) {
+        width: calc((33%) - (8px));
+        flex-direction: column;
+        height: 240px;
+    }
+
+    /*
+    ---------------------------------- FIRST OUTPUT ----------------------------------------
+    */
+
+    .one-of-two-graphs {
+        width: calc((50%) - (10px));
+    }
+
+    .one-of-two-graphs:first-of-type {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+
+    .pie-graph {
+        margin-top: 70px;
+    }
+
+    /*
+    ---------------------------------- MAP AND DEFINITIONS ----------------------------------------
+    */
+
+    .definitions {
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    .definitions .container:first-of-type {
+        margin-right: 12px;
+        width: calc((55%) - (6px));
+    }
+
+    .definitions .container:last-of-type {
+        width: calc((45%) - (6px));
+    }
+
+    /*
+    ---------------------------------- FOOTER ----------------------------------------
+    */
+
+    .data-questions {
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    .data-questions .container:first-of-type {
+        margin-right: 12px;
+        width: calc((40%) - (6px));
+    }
+
+    .data-questions .container:last-of-type {
+        width: calc((60%) - (6px));
+    }
+
+    .about-us {
+        margin-right: 12px;
+        width: calc((55%) - (6px));
+    }
+
+    .show-stripes {
+        width: calc((45%) - (6px));
+    }
+
+    .citation {
+        order: 1;
+    }
+}
+/* Small desktop Styles */
+@media only screen and (min-width: 1001px) {
+
+    html {
+      font-size: 62.5%;
+    }
+
+    .fullPage {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    /*
+    ---------------------------------- INPUT FORM ----------------------------------------
+    */
+
+    .input-form {
+        margin-right: 12px;
+        width: calc((33.3%) - (6px));
+    }
+
+    /*
+    ---------------------------------- MINI-BOX ----------------------------------------
+    */
+
+    /*.mini-box:nth-of-type(2n) {*/
+    /*    margin-right: 12px;*/
+    /*}*/
+
+    /*.mini-box {*/
+    /*    height: 180px;*/
+    /*    width:calc((50%) - (6px));*/
+    /*}*/
+
+    /*.mini-box:first-of-type {*/
+    /*    margin-right: 0;*/
+    /*    width: 100%;*/
+    /*}*/
+
+    .caption-icons p:first-of-type {
+        font-size: 22px;
+        font-size: 2.2rem;
+    }
+
+    .mini-box {
+        margin-right: 12px;
+        height: 170px;
+    }
+
+    .mini-box:nth-of-type(2), .mini-box:nth-of-type(5) {
+        margin-right: 0;
+    }
+
+    .mini-box:nth-of-type(-n+2) {
+        width: calc((50%) - (6px));
+    }
+
+    .mini-box:nth-of-type(n+3) {
+        width: calc((33%) - (8px));
+        flex-direction: column;
+        height: 260px;
+    }
+
+
+
+
+
+    /*
+    ---------------------------------- FIRST OUTPUT ----------------------------------------
+    */
+
+    .first-output {
+        width:calc((66.6%) - (6px));
+    }
+
+    .two-graphs-box {
+        flex-grow: 1;
+    }
+
+    /*.one-of-two-graphs {*/
+    /*    width: calc((50%) - (10px));*/
+    /*}*/
+
+    .one-of-two-graphs:last-of-type {
+        padding-right: 80px;
+        padding-left: 80px;
+        /*margin-bottom: 0;*/
+    }
+
+    /*.pie-graph {*/
+    /*    margin-top: 70px;*/
+    /*}*/
+
+    /*
+    ---------------------------------- MAP AND DEFINITIONS ----------------------------------------
+    */
+
+    .maps {
+        margin-right: 12px;
+        width: calc((50%) - (6px));
+    }
+
+    .maps .graph-container {
+        margin-top: 30px;
+    }
+
+    /*
+    .maps .graph-container {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    */
+
+    .definitions {
+        width: calc((50%) - (6px));
+    }
+
+    /*
+    ---------------------------------- WHAT TO DO and CORES COMPARISON ----------------------------------------
+    */
+
+    .core-comparison {
+        width: calc((55%) - (6px));
+        order: 1;
+    }
+
+    .to-do {
+        width: calc((45%) - (6px));
+        margin-right: 12px;
+    }
+
+    /*
+    ---------------------------------- FORMULA and REPORT ----------------------------------------
+    */
+
+    .formula {
+        order: 1;
+        margin-right: 12px;
+        width: calc((60%) - (6px));
+    }
+
+    .report {
+        order: 1;
+        width: calc((40%) - (6px));
+    }
+
+    /*
+    ---------------------------------- FOOTER ----------------------------------------
+    */
+
+    .about-us {
+        order: 1;
+        margin-right: 12px;
+        width: calc((33.3%) - (8px));
+    }
+
+    .data-questions {
+        order: 2;
+        margin-right: 12px;
+        width: calc((33.3%) - (8px));
+    }
+
+    .show-stripes {
+        order: 2;
+        width: calc((33.3%) - (8px));
+    }
+
+    .citation {
+        order: 3;
+    }
+}
+
+/* Add this CSS to your style.css file */
+.select-container {
+    position: relative;
+    /* Adjust the width and height as needed */
+    width: 100%;
+    height: 40px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Style the dropdown arrow */
+select::after {
+    content: "\25BC"; /* Unicode arrow character */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+/* Style the options in the dropdown */
+select option {
+    background-color: #f0f0f0;
+    color: #333;
+}
+.result-container {
+    margin-top: 20px; /* Adjust the margin as needed */
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.result-label {
+    font-weight: bold;
+}
+
+.result-value {
+    /* Style the prediction value */
+    color: #007BFF; /* Adjust the color as desired */
+    font-size: 18px; /* Adjust the font size as needed */
+}
+input[type="submit"] {
+    background-color: #007BFF; /* Background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    width: 100%; /* Full width */
+    margin-top: 30px;
+}
+
+input[type="reset"]:hover {
+    background-color: #FF0000; /* Hover background color */
+}
+input[type="reset"] {
+    background-color: #FF0000; /* Background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding */
+    border: none; /* Remove the border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    width: 100%; /* Full width */
+    margin-top: 10px ;
+}
+
+input[type="reset"]:hover {
+    background-color: #FF00FF; /* Hover background color */
+}
